@@ -51,18 +51,19 @@ def left(tf):
 
 def key(event):
     print "pressed", repr(event.char)
+    sleep_time=.020
     if event.char=='w':
 	print 'going forward'
-    	forward(.1)
+    	forward(sleep_time)
     elif event.char=='s':
 	print 'going reverse'
-	reverse(.1)
+	reverse(sleep_time)
     elif event.char=='a':
         print 'going left'
-        left(.1)
+        left(sleep_time)
     elif event.char=='d':
         print 'going right'
-        right(.1)
+        right(sleep_time)
 
 
 

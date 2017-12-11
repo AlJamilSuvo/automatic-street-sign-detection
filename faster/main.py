@@ -75,7 +75,8 @@ print 'model loaded'
 
 
 #pred=cnn.predict(ds.images[:20])
-
+a=DataSet.readImageToPhoto(20,20,'res.png')
+print a[0].shape
 pred=cnn.predict(DataSet.readImageToPhoto(20,20,'res.png'))
 
 # Display

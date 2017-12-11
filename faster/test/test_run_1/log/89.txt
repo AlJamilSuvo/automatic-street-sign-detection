@@ -1,0 +1,1 @@
+center,radius=29binary cnt=335red cnt=5

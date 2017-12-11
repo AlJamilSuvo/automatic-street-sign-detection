@@ -1,0 +1,1 @@
+center,radius=29binary cnt=282red cnt=17

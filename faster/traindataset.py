@@ -3,12 +3,14 @@ from DataSet import *
 import os
 cwd = os.getcwd()
 print cwd
+
+image_size=30
 # A folder will contain multiple folders, each for one class of data.
 # For those classes, name will be considered as class name
 
 
 
-ds=DataSet.prepare_from_folder(cwd+"/dataset", height=20, width=20)
+ds=DataSet.prepare_from_folder(cwd+"/dataset", height=image_size, width=image_size)
 
 
 '''
